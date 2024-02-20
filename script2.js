@@ -15,7 +15,8 @@ responsMess.innerText = `A confirmation email has been sent to
 ${emailAdd} Please open it and click the button inside to confirm your subscription.`
 
 
-dismissBtn.addEventListener("click" , () =>{
+dismissBtn.addEventListener("click" , (event) =>{
+    event.preventDefault();
     console.log("dismiss is cliked")
     window.location.href = "index.html"
 })
