@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+    /* background-image: url("./images/faqsBg.svg"); */
+    background-repeat: no-repeat;
+    font-family: "Roboto", sans-serif;
+    background-color:  hsl(234, 29%, 20%)
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.content{
+    height: auto;
+    width: 63%;
+    background-color:hsl(0, 0%, 100%);
+    border-radius: 15px;
+}
+    /************* form **********/
+.form{
+    width: 90%;
+    margin: 30px auto 20px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+/************* heading **********/
+.heading h1{
+    color: hsl(235, 18%, 26%);
+}
+.heading p{
+    padding: 20px 0px;
+    color: hsl(234, 29%, 20%);
+}
+
+
+/************* list **********/
+
+.list ol {
+    list-style-type: none;
+  }
+  
+  .list  li {
+    margin: 10px 0; 
+    padding-left: 25px; 
+    background: url('./images/icon-list.svg') no-repeat left center;  
+    background-size: 18px 18px; 
+    color: hsl(234, 29%, 20%);
+  }
+
+  /************* input section **********/
+
+  .input-section{
+      display: flex;
+      flex-direction: column;
+      padding: 20px 0px;
+      gap: 10px;
+  }
+
+  .Input{
+      padding:15px 15px ;
+      outline: none;
+      border-radius:5px;
+      border: 1px solid black;
+      font-size: 16px;
+  }
+
+  .Label{
+      font-size:12px ;
+      font-weight: 600;
+  }
+   /************* btn **********/
+ .button1{
+    width: 100%;
+    padding: 15px 0px;
+    cursor: pointer;
+    background-color:  hsl(234, 29%, 20%);
+    color:  hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.button1:hover{
+    background: linear-gradient(90deg, rgba(253,29,29,1) 42%, rgba(252,176,69,1) 100%); 
+    box-shadow: 0px 5px 24px -7px rgba(253,29,29,1);
+}
+
+ /************* img **********/
+
+.img img{
+    width: 100%;
+}
+
+
+
