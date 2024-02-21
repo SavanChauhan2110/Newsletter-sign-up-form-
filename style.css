@@ -23,7 +23,7 @@ html, body{
 
 .content{
     height: auto;
-    width: 63%;
+    width: 65%;
     background-color:hsl(0, 0%, 100%);
     border-radius: 15px;
 }
@@ -47,7 +47,9 @@ html, body{
     color: hsl(234, 29%, 20%);
 }
 
-
+.text{
+    width: 50%;
+}
 /************* list **********/
 
 .list ol {
@@ -101,8 +103,44 @@ html, body{
 
  /************* img **********/
 
-.img img{
-    width: 100%;
+.img{
+    height: 520px;
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    background-image: url("./images/illustration-sign-up-desktop.svg");
+    
+}
+
+@media  screen and (max-width:450px) {
+
+    .content{
+        width: 95%;
+        height: auto;
+    }
+
+    .form{
+        width: 90%;
+        margin: 30px auto 20px;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .img{
+        height: 300px;
+        width: 100%;
+        background-image: url("./images/illustration-sign-up-mobile.svg");
+        
+    }
+
+    .text{
+        width: 100%;
+    }
+
 }
 
 
